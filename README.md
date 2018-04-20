@@ -9,3 +9,8 @@ The [research models](https://github.com/tensorflow/models/tree/master/research)
 The [samples folder](samples) contains code snippets and smaller models that demonstrate features of TensorFlow, including code presented in various blog posts.
 
 The [tutorials folder](tutorials) is a collection of models described in the [TensorFlow tutorials](https://www.tensorflow.org/tutorials/).
+
+
+# at home:
+#export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:/home/majid/softwares/cudnn/8.0-7.0/lib64:$LD_LIBRARY_PATH
+#export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
